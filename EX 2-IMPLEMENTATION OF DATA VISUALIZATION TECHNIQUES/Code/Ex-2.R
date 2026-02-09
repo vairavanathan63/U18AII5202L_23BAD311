@@ -1,4 +1,4 @@
-# Student Roll No: 23BAD105
+# Student Roll No: 23BAD311
 
 # Install required packages
 install.packages("lubridate")
@@ -11,7 +11,7 @@ library(lubridate)
 library(reshape2)
 
 # Load data
-data <- read.csv("C:/Users/mohan/Downloads/2.ecommerce_transactions.csv")
+data <- read.csv("C:/Users/vicky/Downloads/2.ecommerce_transactions.csv")
 
 # View data
 head(data)
@@ -68,3 +68,4 @@ ggplot(monthly_sales, aes(x = Year, y = Month, fill = TotalSales)) +
     y = "Month"
   ) +
   theme_minimal()
+
