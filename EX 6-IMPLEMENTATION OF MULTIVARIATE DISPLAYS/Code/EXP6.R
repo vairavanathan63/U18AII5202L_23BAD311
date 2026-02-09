@@ -1,4 +1,4 @@
-# Roll No: 23BAD306
+# Roll No: 23BAD311
 # Multivariate Analysis
 
 # Load required libraries
@@ -7,7 +7,7 @@ library(GGally)
 library(dplyr)
 
 # Load dataset
-retail_data <- read.csv("C:\\Users\\navin\\Downloads\\6.retail_business.csv")
+retail_data <- read.csv("C:\\Users\\vicky\\Downloads\\6.retail_business.csv")
 
 # Remove missing values
 retail_data <- na.omit(retail_data)
@@ -49,3 +49,4 @@ ggplot(
     y = "profit"
   )+
   theme_minimal()
+
